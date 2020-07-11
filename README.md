@@ -102,7 +102,7 @@ terraform state mv -state=aws/terraform.tfstate -state-out=combined/terraform.tf
 2. Move GCP State
 
 ```
-terraform state mv -state=gcp/terraform.tfstate -state-out=combined/terraform.tfstate "google_service_account.sa" "google_service_account.sa"s
+terraform state mv -state=gcp/terraform.tfstate -state-out=combined/terraform.tfstate "google_service_account.sa" "google_service_account.sa"
 ```
 
 3. Move into combined dir
